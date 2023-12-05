@@ -20,5 +20,5 @@ jobs:
     
 
     - name: "login to doker hub"
-      run: doker login --username rahma117 --password dckr_pat_N72Dv-1j365GLfFXyxXfVwQix-c  
+      run: doker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}  
    
