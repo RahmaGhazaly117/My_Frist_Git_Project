@@ -14,11 +14,11 @@ jobs:
     - name: 'Testing Github action'
       run: pwd 
 
-    - name: 'printing folder contents before'
-      run: ls
 
     - uses: actions/checkout@v3 
 
-    - name: 'printing folder contents after'
-      run: ls 
+    
+
+    - name: "login to doker hub"
+      run: doker login --username rahma117 --password dckr_pat_N72Dv-1j365GLfFXyxXfVwQix-c  
    
