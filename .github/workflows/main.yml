@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-lastest
 
-  steps:
+    steps:
     - name: 'Testing Github action'
       run: pwd 
 
